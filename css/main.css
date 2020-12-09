@@ -1,0 +1,258 @@
+/* header */
+
+#header {
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+    position: sticky;
+    width: 100%;
+    z-index: 20;
+}
+
+.nav-menu {
+    display: none;
+}
+
+#nav {
+    display: flex;
+}
+
+.header-main {
+    align-items: baseline;
+}
+
+.icon-menu {
+    display: none;
+}
+
+.nav-menu-ul {
+    margin: 0;
+}
+
+.nav-menu-li:hover {
+    padding: 0px 10px;
+}
+
+.nav {
+    margin-right: 5rem;
+}
+
+.nav-menu-li {
+    margin-right: 20px;
+}
+
+.nav-menu-li i {
+    font-size: 5px;
+    padding-left: 2px;
+}
+
+.nav-menu-li a,
+.member-info a {
+    font-size: 14px;
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.member-box {
+    align-items: baseline;
+}
+
+.member-box div+div::before {
+    content: " | ";
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+/* content */
+
+.col-md-2,
+.col-md-3 {
+    padding: 0 5px;
+}
+
+.img-slogan {
+    background: #f1f1f1;
+}
+
+.img-slogan img {
+    width: 100%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.slogan-text {
+    padding: 70px 0;
+}
+
+.slogan-text h1 {
+    color: #666;
+    font-size: 45px;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: thin;
+    font-family: 'Caveat',
+        cursive;
+}
+
+.slogan-text p {
+    font-size: 14px;
+    color: #979797;
+}
+
+.slogan-text i {
+    color: red;
+}
+
+/* hot-news */
+
+.hot-news {
+    margin: 60px 0;
+}
+
+.news-info,
+.topic-info {
+    position: relative;
+}
+
+.news-info img {
+    width: 100%;
+    height: auto;
+}
+
+.inner-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(100, 100, 100, 0.4);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.inner-text:hover {
+    opacity: 1;
+}
+
+.inner-text .title {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.letter {
+    position: relative;
+    top: 50%;
+}
+
+.letter .title {
+    font-family: 'Caveat',
+        cursive;
+}
+
+.letter p {
+    font-size: 14px;
+    background-color: rgba(0.1, 0.1, 0.1, 0.1);
+    color: #fbfbfb;
+}
+
+/* news-sale */
+
+#content .new-sale .row {
+    margin: 0;
+}
+
+.products h2 {
+    font-weight: 600;
+    border-bottom: double;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.hot-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.hot-img img,
+.topic-img img {
+    width: 100%;
+    height: auto;
+}
+
+.hot-img img:hover {
+    opacity: 1;
+    transform: scale(1.5, 1.5);
+    transition: transform .4s ease,
+        -webkit-transform .4s ease;
+}
+
+.product-name {
+    margin: 0;
+}
+
+.product-name a {
+    font-size: 12px;
+    color: #494949;
+    text-decoration: none;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* new-sale */
+
+.new-sale,
+.gist {
+    margin: 60px 0;
+}
+
+.sale-list {
+    align-items: baseline;
+}
+
+.control button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+/* top */
+
+.topic-text .subtitle {
+    width: min-content;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.topic-text {
+    position: absolute;
+    top: 56%;
+    right: 10%;
+}
+
+/* gist */
+
+.gist .nav-link {
+    font-size: 14px;
+    color: #494949;
+    border: none;
+}
+
+.gist .nav-tabs {
+    border-bottom: none;
+    margin: 0;
+}
+
+.gist .nav-link.active {
+    border-bottom: 2px solid #494949;
+}
+
+.gist .tab-content {
+    padding: 30px 0;
+}
+
+.gist .tab-content p {
+    font-size: 14px;
+    color: #494949;
+}
